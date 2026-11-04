@@ -10,15 +10,20 @@ Website ini **statis** (HTML, CSS, JavaScript) sehingga tidak memerlukan server,
 | Bagian | Keterangan |
 | --- | --- |
 | `index.html` | Landing page yang menghubungkan semua materi |
-| `website/` | Materi interaktif 36 pertemuan (2 semester) |
-| `final-project/` | Hasil akhir materi: website sekolah 7 halaman + CSS |
+| `website/` | Materi interaktif Semester 1 (18 pertemuan); Semester 2 disembunyikan sementara |
+| `semester-1/` | Hasil website Semester 1 (versi 1.0) sebagai pembanding |
+| `final-project/` | Hasil akhir Semester 2: website sekolah 7 halaman + CSS |
 | `Modul_Pembelajaran_HTML_CSS_Kelas_X_XI.pdf` | Modul pembelajaran |
 | `DAFTAR_PERTEMUAN.txt` | Ringkasan rencana 36 pertemuan |
 | `PETUNJUK.txt` | Petunjuk penggunaan paket |
 
-## Hubungan materi dan final project
+## Hubungan materi, hasil Semester 1, dan final project
 
-`website/` adalah aplikasi pembelajaran (dashboard 36 pertemuan). `final-project/` adalah **hasil akhir** yang menjadi acuan: contoh kode di materi disusun agar menghasilkan struktur, class CSS, gambar, dan tujuh halaman yang sama dengan final project.
+`website/` adalah aplikasi pembelajaran. Untuk sementara hanya **Semester 1 (Pertemuan 1–18)** yang ditampilkan; Semester 2 disembunyikan agar siswa fokus menyelesaikan Semester 1 lebih dulu.
+
+`semester-1/` adalah **hasil website Semester 1 (versi 1.0)**. Tampilannya sengaja masih sederhana karena belum memakai Flexbox, Grid, media query, atau animasi. Hasil ini ditampilkan di Pertemuan 18 sebagai pembanding.
+
+`final-project/` adalah **hasil akhir Semester 2 (versi 2.0)**. Folder ini tetap ada di repository, tetapi tidak ditampilkan di halaman utama selama Semester 2 disembunyikan.
 
 ## Menjalankan di komputer
 

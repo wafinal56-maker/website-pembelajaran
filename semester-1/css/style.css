@@ -1,0 +1,116 @@
+/* SMK Creative Hub — hasil Semester 1 (versi 1.0)
+   Berisi materi Pertemuan 1–18: HTML dasar, halaman ganda,
+   warna, tipografi, box model, border, dan shadow.
+   Belum memakai Flexbox, Grid, media query, atau animasi. */
+
+:root {
+  --primary: #164e63;
+  --secondary: #0f766e;
+  --accent: #f59e0b;
+  --ink: #1f2937;
+  --muted: #64748b;
+  --surface: #fff;
+  --background: #f8fafc;
+  --line: #e2e8f0;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: var(--ink);
+  background: var(--background);
+  line-height: 1.65;
+}
+
+img { max-width: 100%; height: auto; display: block; }
+a { color: var(--secondary); }
+
+.container { width: min(1100px, 92%); margin-inline: auto; }
+
+/* Banner penanda hasil Semester 1 */
+.semester-banner {
+  background: #fff3d6;
+  color: #805500;
+  border-bottom: 1px solid #f2d38a;
+  padding: .6rem 0;
+  font-size: .9rem;
+  text-align: center;
+}
+.semester-banner a { color: #805500; font-weight: bold; }
+
+/* Header dan navigasi masih sederhana (belum Flexbox) */
+.site-header {
+  background: var(--primary);
+  color: white;
+  padding: .9rem 0;
+}
+.brand {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.nav-list {
+  list-style: none;
+  padding: 0;
+  margin: .6rem 0 0;
+}
+.nav-list li { margin: .2rem 0; }
+.nav-list a { color: white; text-decoration: none; }
+
+/* Hero */
+.hero { padding: 2.2rem 0; }
+.hero h1 {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  line-height: 1.12;
+  margin: .4rem 0 1rem;
+}
+.hero p { max-width: 62ch; }
+.hero-image { width: 100%; height: auto; margin-top: 1rem; }
+.eyebrow {
+  font-weight: bold;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--secondary);
+}
+
+/* Tombol */
+.button {
+  display: inline-block;
+  background: var(--accent);
+  color: var(--ink);
+  text-decoration: none;
+  font-weight: bold;
+  padding: .75rem 1.1rem;
+  border-radius: 999px;
+  border: 0;
+  cursor: pointer;
+}
+
+/* Bagian dan kartu */
+.section { padding: 2rem 0; }
+.section-heading h2 { font-size: clamp(1.6rem, 3vw, 2.3rem); }
+.card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  padding: 1.25rem;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, .05);
+  margin-bottom: 1rem;
+}
+.card h3 { margin-top: .2rem; color: var(--primary); }
+.muted { color: var(--muted); }
+
+/* Halaman dalam: masih tampilan dasar */
+.content h2 { color: var(--primary); margin-top: 2rem; }
+
+/* Footer */
+.site-footer {
+  background: #102f40;
+  color: #e2e8f0;
+  padding: 2rem 0;
+  margin-top: 2rem;
+}
+.site-footer a { color: #fde68a; }

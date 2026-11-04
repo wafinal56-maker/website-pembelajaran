@@ -3,8 +3,9 @@ PAKET PROJECT PEMBELAJARAN HTML & CSS — SMK CREATIVE HUB
 ISI PAKET
 1. Modul_Pembelajaran_HTML_CSS_Kelas_X_XI.pdf : modul 36 pertemuan.
 2. website/index.html : website pembelajaran interaktif, materi, tugas, contoh kode, checklist progress.
-3. final-project/ : contoh website akhir multi-halaman beserta CSS.
-4. DAFTAR_PERTEMUAN.txt : ringkasan rencana 2 semester.
+3. semester-1/ : hasil website Semester 1 (versi 1.0) sebagai pembanding.
+4. final-project/ : hasil akhir Semester 2, website multi-halaman beserta CSS.
+5. DAFTAR_PERTEMUAN.txt : ringkasan rencana 2 semester.
 
 CARA MENGGUNAKAN
 A. Untuk guru/siswa:
@@ -21,6 +22,10 @@ B. QuickEdit:
 
 CATATAN
 - Materi disusun sebagai rancangan 18 pertemuan per semester (36 total).
+- Untuk sementara website materi hanya menampilkan Semester 1 (18 pertemuan).
+  Semester 2 disembunyikan sampai Semester 1 selesai.
+- Pada Pertemuan 18, buka "Hasil Semester 1" untuk melihat website versi 1.0.
+  final-project/ adalah hasil akhir Semester 2 (versi 2.0), bukan hasil Semester 1.
 - Sesuaikan contoh konten dengan data sekolah yang benar.
 - Website contoh tidak memiliki backend/database.
 - Formulir kontak hanya demonstrasi tampilan dan tidak mengirim pesan.
