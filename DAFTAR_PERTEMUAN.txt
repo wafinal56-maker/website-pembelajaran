@@ -1,0 +1,184 @@
+PROGRAM 2 SEMESTER — 18 PERTEMUAN PER SEMESTER
+
+SEMESTER 1
+01. Pengenalan web dan persiapan QuickEdit
+   Materi: Memahami cara kerja website, browser, file, folder, dan editor QuickEdit.
+   Tugas: Buat folder SMK-CREATIVE-HUB. Buat file index.html dan buka melalui browser.
+   Indikator: Tampilkan judul sederhana di browser.
+
+02. Struktur dasar HTML
+   Materi: DOCTYPE, html, head, title, body, meta charset, viewport.
+   Tugas: Tambahkan kerangka HTML5 lengkap dan title SMK Creative Hub.
+   Indikator: Pastikan karakter Indonesia tampil benar dan judul tab sesuai.
+
+03. Heading dan paragraf
+   Materi: h1–h6, p, br, hr, strong, em.
+   Tugas: Tambahkan judul utama, tagline, dan deskripsi sekolah.
+   Indikator: Gunakan satu h1 dan beberapa heading sesuai hierarki.
+
+04. Formatting teks dan komentar
+   Materi: strong, em, mark, small, sup, sub, comment.
+   Tugas: Tandai nama sekolah, slogan, dan informasi penting.
+   Indikator: Gunakan minimal tiga elemen pemformatan dengan tepat.
+
+05. List dan konten terstruktur
+   Materi: ul, ol, li, nested list.
+   Tugas: Tambahkan daftar program keahlian dan kegiatan unggulan.
+   Indikator: Buat daftar jurusan dan minimal tiga kegiatan.
+
+06. Hyperlink dan navigasi
+   Materi: a, href, target, tautan relatif dan eksternal.
+   Tugas: Buat file profil.html dan jurusan.html; hubungkan dari beranda.
+   Indikator: Semua tautan internal menuju file yang benar.
+
+07. Menampilkan gambar
+   Materi: img, src, alt, width, folder aset.
+   Tugas: Tambahkan logo sementara dan foto kegiatan pada folder images.
+   Indikator: Setiap gambar memiliki alt yang bermakna.
+
+08. Tabel data
+   Materi: table, caption, thead, tbody, tr, th, td.
+   Tugas: Buat tabel ringkas informasi program keahlian atau jadwal layanan.
+   Indikator: Tabel mempunyai header dan struktur yang benar.
+
+09. Formulir HTML
+   Materi: form, label, input, textarea, select, option, button.
+   Tugas: Buat formulir kontak sederhana tanpa backend.
+   Indikator: Setiap input mempunyai label dan tipe yang sesuai.
+
+10. Semantic HTML
+   Materi: header, nav, main, section, article, aside, footer.
+   Tugas: Susun ulang halaman beranda menggunakan elemen semantik.
+   Indikator: Gunakan landmark semantik dan hindari div berlebihan.
+
+11. Website multi-halaman
+   Materi: Struktur halaman konsisten, tautan relatif, navigasi aktif.
+   Tugas: Lengkapi beranda, profil, jurusan, kegiatan, galeri, kontak.
+   Indikator: Minimal empat halaman saling terhubung.
+
+12. Pengenalan CSS
+   Materi: External, internal, inline CSS; menghubungkan stylesheet.
+   Tugas: Buat css/style.css dan hubungkan semua halaman.
+   Indikator: Ubah warna body dan font melalui external CSS.
+
+13. Selector dan cascade
+   Materi: Element, class, id, grouping, descendant, specificity dasar.
+   Tugas: Buat class untuk container, tombol, kartu, dan judul bagian.
+   Indikator: Gunakan class reusable, hindari styling berulang.
+
+14. Warna, background, dan satuan
+   Materi: HEX, rgb, hsl, background-color, background-image, px, rem, %.
+   Tugas: Tentukan palet warna dan latar halaman.
+   Indikator: Gunakan maksimal tiga warna utama secara konsisten.
+
+15. Typography dan Google Fonts alternatif
+   Materi: font-family, size, weight, line-height, text-align.
+   Tugas: Atur sistem tipografi untuk judul, isi, dan caption.
+   Indikator: Teks mudah dibaca dan mempunyai hierarki.
+
+16. Box model
+   Materi: width, max-width, margin, padding, border, box-sizing.
+   Tugas: Buat container dan kartu informasi dengan jarak konsisten.
+   Indikator: Buktikan perbedaan margin dan padding pada komponen.
+
+17. Border, shadow, dan komponen
+   Materi: border-radius, box-shadow, outline, hover sederhana.
+   Tugas: Buat tombol, kartu jurusan, dan panel informasi.
+   Indikator: Buat tiga komponen dengan gaya konsisten.
+
+18. Review semester dan website v1.0
+   Materi: Validasi struktur, konsistensi, dokumentasi, presentasi.
+   Tugas: Rapikan semua halaman dan kumpulkan versi 1.0.
+   Indikator: Website multi-halaman dengan HTML semantik dan CSS dasar.
+
+SEMESTER 2
+01. Audit dan refactor website
+   Materi: Meninjau struktur folder, HTML semantik, CSS, dan penamaan class.
+   Tugas: Rapikan kode versi 1.0; hapus aturan CSS duplikat.
+   Indikator: Buat catatan tiga perbaikan kode.
+
+02. Selector lanjutan dan inheritance
+   Materi: Selector gabungan, child, attribute, inheritance, specificity.
+   Tugas: Atur komponen berdasarkan konteks tanpa menambah banyak class.
+   Indikator: Buat stylesheet lebih ringkas dan mudah dirawat.
+
+03. Display dan overflow
+   Materi: block, inline, inline-block, none, overflow.
+   Tugas: Atur elemen navigasi, badge, dan konten yang panjang.
+   Indikator: Tunjukkan perbedaan block dan inline.
+
+04. Flexbox dasar
+   Materi: display:flex, direction, justify-content, align-items, gap.
+   Tugas: Susun navbar dan baris kartu menggunakan Flexbox.
+   Indikator: Navbar dan komponen tersusun tanpa spasi manual.
+
+05. Flexbox lanjutan
+   Materi: flex-wrap, flex-grow, flex-shrink, align-self.
+   Tugas: Buat area hero dan baris kartu yang fleksibel.
+   Indikator: Komponen tetap rapi saat lebar layar berubah.
+
+06. CSS Grid
+   Materi: grid-template-columns, gap, repeat, minmax.
+   Tugas: Buat grid kartu jurusan dan galeri.
+   Indikator: Galeri menggunakan grid yang dapat menyesuaikan kolom.
+
+07. Position dan z-index
+   Materi: static, relative, absolute, fixed, sticky, z-index.
+   Tugas: Buat label pada kartu dan tombol kembali ke atas (tanpa JS).
+   Indikator: Gunakan position hanya saat dibutuhkan.
+
+08. Pseudo-class dan pseudo-element
+   Materi: :hover, :focus-visible, :first-child, ::before, ::after.
+   Tugas: Tambahkan state interaksi untuk tautan, tombol, dan kartu.
+   Indikator: Navigasi dapat dikenali saat hover dan fokus keyboard.
+
+09. Background dan visual lanjutan
+   Materi: gradient, background-size, object-fit, aspect-ratio.
+   Tugas: Rapikan hero dan gambar kartu agar proporsional.
+   Indikator: Gambar tidak gepeng dan area hero konsisten.
+
+10. Navbar dan komponen reusable
+   Materi: Komponen visual konsisten, class naming, active link.
+   Tugas: Samakan navbar, tombol, kartu, dan footer di seluruh halaman.
+   Indikator: Semua halaman memiliki identitas visual sama.
+
+11. Styling form dan tabel
+   Materi: focus, placeholder, required, styling tabel responsif.
+   Tugas: Rapikan formulir kontak dan tabel informasi.
+   Indikator: Form mudah digunakan dan fokus terlihat.
+
+12. Responsive design dan viewport
+   Materi: Mobile-first, breakpoint, fluid sizing.
+   Tugas: Buat layout beradaptasi dari ponsel ke desktop.
+   Indikator: Tidak ada scroll horizontal pada lebar ponsel.
+
+13. Media query
+   Materi: @media, breakpoint, perubahan layout dan tipografi.
+   Tugas: Atur navbar, grid, dan spacing untuk layar kecil.
+   Indikator: Uji minimal pada lebar 360px, 768px, dan 1280px.
+
+14. Transitions dan transform
+   Materi: transition, transform, prefers-reduced-motion.
+   Tugas: Tambahkan transisi ringan pada tombol dan kartu.
+   Indikator: Animasi tidak mengganggu aksesibilitas.
+
+15. Aksesibilitas dan SEO dasar
+   Materi: alt, label, heading order, title, description, contrast.
+   Tugas: Periksa semua halaman dan perbaiki aksesibilitas dasar.
+   Indikator: Gambar, form, judul, dan tautan punya konteks jelas.
+
+16. Optimasi aset dan debugging
+   Materi: Ukuran gambar, nama file, path relatif, devtools browser.
+   Tugas: Kompres gambar, periksa tautan rusak dan error tampilan.
+   Indikator: Buat daftar uji dan hasil perbaikan.
+
+17. Uji pengguna dan dokumentasi
+   Materi: Checklist, pengujian lintas perangkat, dokumentasi project.
+   Tugas: Minta teman mencoba website lalu catat masukan.
+   Indikator: Selesaikan minimal lima pemeriksaan kualitas.
+
+18. Final project v2.0
+   Materi: Penyelesaian, presentasi, refleksi, portofolio.
+   Tugas: Kumpulkan website final dan presentasikan proses perkembangan.
+   Indikator: Website responsif, multi-halaman, terdokumentasi.
+

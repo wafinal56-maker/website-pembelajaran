@@ -1,0 +1,14 @@
+# Normalisasi teks ke LF agar konsisten di Windows/Linux
+* text=auto eol=lf
+
+# File biner tidak boleh diubah line ending-nya
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.woff binary
+*.woff2 binary
+*.ttf binary

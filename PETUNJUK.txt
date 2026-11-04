@@ -1,0 +1,27 @@
+PAKET PROJECT PEMBELAJARAN HTML & CSS — SMK CREATIVE HUB
+
+ISI PAKET
+1. Modul_Pembelajaran_HTML_CSS_Kelas_X_XI.pdf : modul 36 pertemuan.
+2. website/index.html : website pembelajaran interaktif, materi, tugas, contoh kode, checklist progress.
+3. final-project/ : contoh website akhir multi-halaman beserta CSS.
+4. DAFTAR_PERTEMUAN.txt : ringkasan rencana 2 semester.
+
+CARA MENGGUNAKAN
+A. Untuk guru/siswa:
+- Buka PDF untuk alur pembelajaran dan tugas.
+- Buka website/index.html melalui browser untuk melihat materi interaktif.
+- Checklist progress pada website tersimpan di browser yang sama (localStorage).
+
+B. QuickEdit:
+- Ekstrak paket ZIP.
+- Buka folder final-project atau buat folder kerja sendiri.
+- Edit file HTML dan css/style.css menggunakan QuickEdit.
+- Buka index.html melalui Preview/Open in Browser.
+- Jangan memindahkan file HTML tanpa menjaga folder css dan images.
+
+CATATAN
+- Materi disusun sebagai rancangan 18 pertemuan per semester (36 total).
+- Sesuaikan contoh konten dengan data sekolah yang benar.
+- Website contoh tidak memiliki backend/database.
+- Formulir kontak hanya demonstrasi tampilan dan tidak mengirim pesan.
+- Jangan mempublikasikan foto/nama/kontak siswa tanpa izin yang sesuai.
