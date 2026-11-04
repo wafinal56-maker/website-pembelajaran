@@ -11,10 +11,14 @@ Website ini **statis** (HTML, CSS, JavaScript) sehingga tidak memerlukan server,
 | --- | --- |
 | `index.html` | Landing page yang menghubungkan semua materi |
 | `website/` | Materi interaktif 36 pertemuan (2 semester) |
-| `final-project/` | Contoh website sekolah 7 halaman + CSS |
+| `final-project/` | Hasil akhir materi: website sekolah 7 halaman + CSS |
 | `Modul_Pembelajaran_HTML_CSS_Kelas_X_XI.pdf` | Modul pembelajaran |
 | `DAFTAR_PERTEMUAN.txt` | Ringkasan rencana 36 pertemuan |
 | `PETUNJUK.txt` | Petunjuk penggunaan paket |
+
+## Hubungan materi dan final project
+
+`website/` adalah aplikasi pembelajaran (dashboard 36 pertemuan). `final-project/` adalah **hasil akhir** yang menjadi acuan: contoh kode di materi disusun agar menghasilkan struktur, class CSS, gambar, dan tujuh halaman yang sama dengan final project.
 
 ## Menjalankan di komputer
 
