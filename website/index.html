@@ -35,7 +35,7 @@ footer{text-align:center;color:var(--muted);padding:25px}.back{display:inline-fl
 <p id="sem2Note" class="small">Semester 2 disembunyikan sementara. Tab Semester 2 dibuka setelah Semester 1 selesai.</p>
 <p class="small">Progress tersimpan di browser perangkat ini. Jika data browser dihapus atau pindah perangkat, checklist perlu diisi kembali.</p>
 </aside>
-<main><p class="notice" style="margin:0 0 12px">Acuan Semester 1: <a href="../semester-1/index.html">Hasil Semester 1 (versi 1.0)</a>. Hasil ini sama dengan website yang kamu buat sampai Pertemuan 18. Final Project adalah hasil akhir Semester 2.</p><article class="panel">
+<main><p class="notice" id="mainNotice" style="margin:0 0 12px">Acuan Semester 1: <a href="../semester-1/index.html">Hasil Semester 1 (versi 1.0)</a>. Hasil ini sama dengan website yang kamu buat sampai Pertemuan 18. Final Project adalah hasil akhir Semester 2.</p><article class="panel">
 <div id="content"></div>
 </article></main></div>
 <footer>Materi praktik HTML & CSS — SMK Creative Hub</footer>
@@ -73,6 +73,7 @@ if(!SHOW_SEMESTER_2){
   document.getElementById('previewLink').hidden=true;
   document.getElementById('sem2Note').hidden=true;
   document.getElementById('headerSub').textContent='Laboratorium belajar HTML & CSS • Kelas X–XI • 2 semester • 36 pertemuan';
+  document.getElementById('mainNotice').innerHTML='Acuan hasil akhir: <a href="../final-project/index.html">Final Project SMK Creative Hub</a>. Contoh kode di setiap pertemuan disusun agar hasilnya sama dengan project tersebut.';
 }
 const startNo=parseInt(new URLSearchParams(location.search).get('pertemuan')||'1',10);
 const startIdx=Math.min(Math.max((isNaN(startNo)?1:startNo)-1,0),LAST);
